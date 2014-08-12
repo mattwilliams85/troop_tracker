@@ -5,5 +5,7 @@ class CreateDivisions < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    add_column :troops, :division_id, :integer
   end
 end
