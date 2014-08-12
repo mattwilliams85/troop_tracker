@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: troop_tracker_developmental
+
+test:
+  adapter: postgresql
+  database: troop_tracker_test
